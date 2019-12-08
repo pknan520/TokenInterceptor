@@ -11,7 +11,7 @@
 在项目根目录下的``server/refresh_token.js``
 安装NodeJs环境，cd到该目录下，执行``node refresh_token.js``命令即可启动服务
 
-**功能介绍**
+**功能介绍**  
 主要功能获取token，校验token。token需要放在``header``里，字段为``accessToken``。  
 为方便调试，token生成规则是当前时间戳，token失效时间为**30s**
 
